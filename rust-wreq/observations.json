@@ -1,0 +1,79 @@
+{
+  "observed_date_utc": "2026-09-08",
+  "endpoint": "https://tls.browserleaks.com/json",
+  "environment": "Debian 12 container, host networking on Ubuntu 22.04.5, x86_64",
+  "rust": "1.98.0",
+  "reqwest": "0.13.4",
+  "wreq": "0.16.1",
+  "wreq_util": "0.2.0",
+  "records": [
+    {
+      "index": 0,
+      "client": "reqwest",
+      "profile": null,
+      "platform": null,
+      "status": 200,
+      "http_version": "HTTP/2.0",
+      "latency_ms": 1720,
+      "attempts": 1,
+      "error": null,
+      "fingerprint": {
+        "akamai_hash": "9b5dcd077a77c5e324b91d8cc306fd5a",
+        "ja3_hash": "4e63e066ebc476d7c7eb40f52ba0347b",
+        "ja3n_hash": "bb37f13a85d080ea42c708e55800985d",
+        "ja4": "t13d1011h2_61a7ad8aa9b6_0d308c48d2a3"
+      }
+    },
+    {
+      "index": 0,
+      "client": "reqwest-ua",
+      "profile": null,
+      "platform": null,
+      "status": 200,
+      "http_version": "HTTP/2.0",
+      "latency_ms": 963,
+      "attempts": 1,
+      "error": null,
+      "fingerprint": {
+        "akamai_hash": "9b5dcd077a77c5e324b91d8cc306fd5a",
+        "ja3_hash": "54b04d05192424f04dba568802a8343f",
+        "ja3n_hash": "bb37f13a85d080ea42c708e55800985d",
+        "ja4": "t13d1011h2_61a7ad8aa9b6_0d308c48d2a3"
+      }
+    },
+    {
+      "index": 0,
+      "client": "wreq",
+      "profile": null,
+      "platform": null,
+      "status": 200,
+      "http_version": "HTTP/2.0",
+      "latency_ms": 652,
+      "attempts": 1,
+      "error": null,
+      "fingerprint": {
+        "akamai_hash": "787b78994836bff666aa7c3258e52189",
+        "ja3_hash": "6aac88aefeb1c3f8b576782dbe085b6e",
+        "ja3n_hash": "620628e68f7a3fc36de7125c3112aec7",
+        "ja4": "t13d2811h2_257f3020b3a2_78e6aca7449b"
+      }
+    },
+    {
+      "index": 0,
+      "client": "wreq-chrome",
+      "profile": "chrome124",
+      "platform": "windows",
+      "status": 200,
+      "http_version": "HTTP/2.0",
+      "latency_ms": 678,
+      "attempts": 1,
+      "error": null,
+      "fingerprint": {
+        "akamai_hash": "52d84b11737d980aef856699f885ca86",
+        "ja3_hash": "c452819f79060a31ed1a44d28fe703c0",
+        "ja3n_hash": "4c9ce26028c11d7544da00d3f7e4f45c",
+        "ja4": "t13d1516h2_8daaf6152771_02713d6af862"
+      }
+    }
+  ]
+}

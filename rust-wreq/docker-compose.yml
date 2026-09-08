@@ -1,0 +1,8 @@
+services:
+  fingerprint-client:
+    image: fingerprint-client-rs
+    build: .
+    command: ["--help"]
+    read_only: true
+    tmpfs:
+      - /tmp

@@ -1,0 +1,2 @@
+curl_cffi[cli]==0.16.3
+requests==2.34.2

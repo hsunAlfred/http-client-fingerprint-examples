@@ -1,0 +1,10 @@
+target
+.git
+.env
+.env.*
+*.jsonl
+*.pem
+*.key
+examples
+tests
+README.md
